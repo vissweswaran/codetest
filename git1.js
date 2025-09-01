@@ -1,5 +1,5 @@
 const { Before, After, AfterStep } = require('@cucumber/cucumber');
-const { LoginPage } = require('../Newage/pages/loginpage');
+
 
 Before(async function () {
   await this.launchBrowser();

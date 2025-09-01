@@ -1,5 +1,4 @@
 const { setWorldConstructor, World, setDefaultTimeout  } = require('@cucumber/cucumber');
-// const playwright = require('playwright');
 const { chromium} = require('@playwright/test');
 const path = require('path');
 

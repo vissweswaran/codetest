@@ -2,8 +2,8 @@ const { setWorldConstructor, World, setDefaultTimeout  } = require('@cucumber/cu
 // const playwright = require('playwright');
 const { chromium} = require('@playwright/test');
 const path = require('path');
-// const { LoginPage } = require('../Newage/pages/loginpage');
-/** @typedef {import('../Newage/pages/loginpage')} LoginPage */
+
+
 
 // Load config based on ENV
 const env = process.env.ENV || 'qa';
